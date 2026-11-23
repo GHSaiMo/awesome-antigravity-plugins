@@ -29,6 +29,7 @@ body:
         - Cross-Agent Bridges & ACP Ecosystem
         - Official & Partner Marketplace Catalog
         - Skill Suites & Plugin Authoring Toolkits
+        - Environment & Multi-Account Managers
         - Localization, Themes & Accessibility
     validations:
       required: true
@@ -54,7 +55,7 @@ body:
   - type: checkboxes
     id: compliance
     attributes:
-      label: Compliance Check
+      label: Security Check
       options:
-        - label: Uses documented Antigravity extension APIs only (no credential scraping or ToS bypasses).
+        - label: Source code is transparent and free of credential/token harvesting or hidden telemetry.
           required: true

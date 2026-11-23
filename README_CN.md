@@ -5,7 +5,7 @@
 <br />
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Plugins Curated](https://img.shields.io/badge/已收录-65%2B%20精选插件-6366f1.svg)](#目录导航)
+[![Plugins Curated](https://img.shields.io/badge/已收录-70%2B%20精选插件-6366f1.svg)](#目录导航)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-10b981.svg)](./CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-f59e0b.svg)](./LICENSE)
 
@@ -34,6 +34,7 @@
   - [可观测性、安全扫描、测试与认证](#可观测性安全扫描测试与认证)
   - [设计协作、项目管理与商业支付](#设计协作项目管理与商业支付)
 - [Skill 技能合集与插件开发脚手架](#skill-技能合集与插件开发脚手架)
+- [环境配置与多账号管理工具](#环境配置与多账号管理工具)
 - [界面汉化、主题美化与无障碍排版](#界面汉化主题美化与无障碍排版)
 - [快速安装指南与标准插件结构](#快速安装指南与标准插件结构)
 - [贡献与收录规范](#贡献与收录规范)
@@ -185,6 +186,17 @@
 
 ---
 
+## 环境配置与多账号管理工具
+
+*面向 Antigravity CLI、Manager 与 Desktop/IDE 的跨平台多账号环境隔离、实时配额巡检与客户端环境管理工具。*
+
+- **[agy-manager (`eligibility-antigravity-patcher`)](https://github.com/QNIX-Dev/eligibility-antigravity-patcher/blob/main/README.en.md)**（[源码仓库](https://github.com/QNIX-Dev/eligibility-antigravity-patcher)）— 跨平台轻量级 Antigravity 环境管理器（支持 `Windows` / `Linux` / `macOS`，兼容 `x64` 与 `arm64`），同时提供交互式 TUI 面板与零依赖 Python 标准库 CLI：支持多账号隔离配置切换、实时模型配额监控（5 小时与周维度窗口）以及带自动备份/签名还原的客户端地区可用性（Eligibility）补丁管理。
+- **[AGY Switch](https://github.com/anglee0323/agy-switch)** — 跨平台（macOS / Windows / Linux）Antigravity 多账号切换、模型额度追踪与本地用量管理工具，同时提供桌面端与 CLI 界面。
+- **[AGY Auth](https://github.com/fikrilal/agy-auth)** — 面向 Google Antigravity CLI 与桌面端的轻量级多账号快速切换工具。
+- **[AGY CLI Manager](https://github.com/zcop/agy-cli-manager)** — 支持配额感知自动切换策略与自动化脚本接口的 Antigravity CLI 多账号管理器。
+
+---
+
 ## 界面汉化、主题美化与无障碍排版
 
 *面向 Antigravity 桌面端的社区多语言包、自定义配色主题与排版增强工具。*
@@ -232,7 +244,7 @@ chmod +x ./install.sh && ./install.sh
 
 非常欢迎提交你开发的 Antigravity 插件、UI Sidecar、MCP 扩展或修正现有分类！提交前请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)，或直接通过 [提交插件 Issue 模板](../../issues/new?template=submit-plugin.yml) 推荐项目。
 
-> **收录质量与合规准则**：本仓库仅收录基于 Google Antigravity 官方开放扩展机制（`plugin.json`、`Sidecars`、`Skills`、`Hooks`、`MCP`、`ACP`、`statusLine`）构建、尊重用户隐私且代码透明的项目。任何窃取凭据、绕过配额限制或违反 Antigravity 服务条款的工具均不予收录。
+> **免责与安全收录说明**：涉及本地客户端包体修改的社区工具（如界面汉化补丁、客户端环境补丁等）均为非官方项目，请结合自身环境审慎评估并做好原文件备份。任何包含恶意代码、窃取凭据/Token 或暗藏隐私上报的项目均不予收录。
 
 ## 开源协议
 

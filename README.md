@@ -5,7 +5,7 @@
 <br />
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Plugins Curated](https://img.shields.io/badge/curated-65%2B%20plugins-6366f1.svg)](#contents)
+[![Plugins Curated](https://img.shields.io/badge/curated-70%2B%20plugins-6366f1.svg)](#contents)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-10b981.svg)](./CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-f59e0b.svg)](./LICENSE)
 
@@ -34,6 +34,7 @@
   - [Observability, Security, Testing & Auth](#observability-security-testing--auth)
   - [Design, Product & Business](#design-product--business)
 - [Skill Suites & Plugin Authoring Toolkits](#skill-suites--plugin-authoring-toolkits)
+- [Environment & Multi-Account Managers](#environment--multi-account-managers)
 - [Localization, Themes & Accessibility](#localization-themes--accessibility)
 - [Quick Install & Plugin Anatomy](#quick-install--plugin-anatomy)
 - [Contributing](#contributing)
@@ -185,6 +186,17 @@
 
 ---
 
+## Environment & Multi-Account Managers
+
+*Cross-platform CLI/TUI utilities for managing isolated Antigravity account profiles, quota inspection, and local client environments.*
+
+- **[agy-manager (`eligibility-antigravity-patcher`)](https://github.com/QNIX-Dev/eligibility-antigravity-patcher/blob/main/README.en.md)** ([Repo](https://github.com/QNIX-Dev/eligibility-antigravity-patcher)) — Lightweight cross-platform environment manager (`Windows` / `Linux` / `macOS`, `x64` & `arm64`) with both an interactive TUI and a zero-dependency Python CLI: supports isolated multi-account profiles, live 5-hour/weekly quota monitoring, and reversible client-side eligibility patching with automatic backup & signature restore.
+- **[AGY Switch](https://github.com/anglee0323/agy-switch)** — Manage Antigravity accounts, model quotas, and local usage across macOS, Windows, and Linux through desktop and CLI interfaces.
+- **[AGY Auth](https://github.com/fikrilal/agy-auth)** — Multi-account switcher for Google Antigravity CLI and Desktop (`agy`).
+- **[AGY CLI Manager](https://github.com/zcop/agy-cli-manager)** — Multi-account manager for Antigravity CLI featuring quota-aware failover, switching policies, and automation hooks.
+
+---
+
 ## Localization, Themes & Accessibility
 
 *Community language packs, color themes, and typography engines for Antigravity Desktop.*
@@ -232,7 +244,7 @@ Once installed, manage or toggle any plugin live in **Customizations → Plugins
 
 Contributions, new plugins, and category improvements are warmly welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) or [open a Plugin Submission issue](../../issues/new?template=submit-plugin.yml) before submitting a pull request.
 
-> **Quality & Compliance Policy**: We only list plugins and tools that use documented Antigravity extension points (`plugin.json`, `Sidecars`, `Skills`, `Hooks`, `MCP`, `ACP`, `statusLine`) and respect user privacy. Tools designed to harvest credentials, spoof quotas, or violate Google Antigravity Terms of Service will not be accepted.
+> **Disclaimer & Security Policy**: Community utilities that modify local client bundles (such as localization patches or environment patchers) are unofficial and used at your own discretion—always back up your installation first. Repositories containing malware, credential/token harvesters, or deceptive telemetry will never be accepted.
 
 ## License
 

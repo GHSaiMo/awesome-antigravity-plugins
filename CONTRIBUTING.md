@@ -8,9 +8,10 @@ Before opening a Pull Request or Issue, please verify that the project meets the
 
 1. **Purpose-Built for Google Antigravity**: The project must ship a valid Antigravity `plugin.json` bundle, Auxiliary Pane `UI Sidecar`, CLI `statusLine`, `SKILL.md` suite, Lifecycle Hook, or ACP/MCP integration explicitly designed for Antigravity (`agy` CLI or Antigravity 2.0 Desktop/IDE).
 2. **Clear Documentation & Install Path**: The repository must include a clear `README.md` with installation steps, required runtimes/platforms, and an open-source license (or be an official/verified Antigravity Marketplace plugin).
-3. **Privacy & Terms Compliance**:
-   - Must use documented extension points (`~/.gemini/config/plugins/`, `Sidecars`, `Skills`, `Rules`, `Hooks`, `MCP`, `ACP`, `statusLine`).
-   - **Zero tolerance** for credential/token harvesting, quota-bypass proxies, binary cracks, or tools that violate Google Antigravity Terms of Service.
+3. **Security & Transparency**:
+   - Open-source repositories must have inspectable source code with clear documentation of any local files or settings they touch.
+   - Unofficial client patchers (such as localization packs or environment managers) must support clean backup/restore and state their caveats clearly.
+   - **Zero tolerance** for malware, credential/token harvesting, or hidden telemetry.
 
 ## How to Add a Plugin via Pull Request
 
