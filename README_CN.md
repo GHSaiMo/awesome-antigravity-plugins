@@ -77,11 +77,12 @@
 
 ## 性能加速、工程流与多智能体编排
 
-*减少冗余轮次、降低交互延迟、自动化代码审查与多 Agent 闭环协作插件。*
+*减少冗余轮次、管理会话工程流、自动化代码审查与多 Agent 闭环协作插件。*
 
 - **[AGY Fast](https://github.com/INK-Q/agy-fast)** — 非侵入式 MCP 加速插件（支持 CLI / Desktop / IDE），在不破坏原生 UI 与 Diff 视图的前提下减少冗余工具轮次与 Token 开销。
 - **[AGY Dart](https://github.com/zou172866/agy-dart)** — 将批量工具加速、本地 SQLite FTS5 上下文窗口保护与实时 Sidecar 仪表盘融为一体的综合增强插件。
 - **[AGY Fast IO](https://github.com/oil-oil/agy-fast-io)** — 让 Antigravity 少走冗余回合、减少非必要等待的轻量本地规则插件。
+- **[Antigravity Conversation Renamer MCP](https://github.com/falconchen/antigravity-conversation-renamer-mcp)** — 基于 Node.js 内置 `node:sqlite` 的轻量级本地 Stdio MCP 服务（配套 `/rename` 斜杠命令 Skill 与话题偏离自动更新 Rule）：免辅助功能权限、无需重启客户端，在 `.pbtxt` 注解、SQLite 主表与 FTS5 索引及 Protobuf 缓存间原子无损同步重命名当前或历史会话标题。`MCP + Skill + Rules`
 - **[AGYStack](https://github.com/jtaroreh/agystack)** — 面向 Google Antigravity 的闭环软件工程工作流与多智能体（Swarm）编排插件。
 - **[CodeRabbit Antigravity Plugin](https://github.com/coderabbitai/antigravity-plugin)** — CodeRabbit 官方出品的原生插件，提供自动化 AI 代码审查与带安全护栏的 PR 自动修复工作流。
 - **[AGY GCP Companion](https://github.com/ericsk/agy-gcp-companion)** — 在 Antigravity 内直接查看 GCP 项目、账单账户、预算水位与 BigQuery 当月支出。

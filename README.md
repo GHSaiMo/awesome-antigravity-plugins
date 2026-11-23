@@ -77,11 +77,12 @@
 
 ## Performance, Workflow & Swarm Orchestration
 
-*Plugins that accelerate turn latency, streamline code reviews, or coordinate multi-agent engineering loops.*
+*Plugins that accelerate turn latency, organize conversation workflows, streamline code reviews, or coordinate multi-agent engineering loops.*
 
 - **[AGY Fast](https://github.com/INK-Q/agy-fast)** — Non-invasive MCP accelerator plugin for Antigravity (CLI/Desktop/IDE) designed to reduce redundant LLM turns, token consumption, and upload payloads while preserving native diffs.
 - **[AGY Dart](https://github.com/zou172866/agy-dart)** — All-in-one plugin uniting batched latency acceleration with local SQLite FTS5 context-window protection and a live Sidecar dashboard.
 - **[AGY Fast IO](https://github.com/oil-oil/agy-fast-io)** — Lightweight local rule plugin that trims unnecessary agent round-trips and redundant confirmation pauses.
+- **[Antigravity Conversation Renamer MCP](https://github.com/falconchen/antigravity-conversation-renamer-mcp)** — Lightweight Node.js (`node:sqlite`) Stdio MCP server paired with a `/rename` Skill and optional topic-drift Rule: dynamically renames active or historical conversation titles cleanly on disk across `.pbtxt` annotations, SQLite FTS5 indexes, and Protobuf caches without Accessibility permissions or client restarts. `MCP + Skill + Rules`
 - **[AGYStack](https://github.com/jtaroreh/agystack)** — Closed-loop engineering workflow and multi-agent swarm orchestration plugin for Google Antigravity.
 - **[CodeRabbit Antigravity Plugin](https://github.com/coderabbitai/antigravity-plugin)** — Official CodeRabbit plugin bringing automated AI code reviews and guarded PR autofix workflows into Antigravity.
 - **[AGY GCP Companion](https://github.com/ericsk/agy-gcp-companion)** — Inspect Google Cloud projects, billing accounts, budget thresholds, and BigQuery month-to-date spend inside Antigravity.
