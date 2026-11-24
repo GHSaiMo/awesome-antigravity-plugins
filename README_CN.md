@@ -197,6 +197,7 @@
 - **[AGY Switch](https://github.com/anglee0323/agy-switch)** — 跨平台（macOS / Windows / Linux）Antigravity 多账号切换、模型额度追踪与本地用量管理工具，同时提供桌面端与 CLI 界面。
 - **[AGY Auth](https://github.com/fikrilal/agy-auth)** — 面向 Google Antigravity CLI 与桌面端的轻量级多账号快速切换工具。
 - **[AGY CLI Manager](https://github.com/zcop/agy-cli-manager)** — 支持配额感知自动切换策略与自动化脚本接口的 Antigravity CLI 多账号管理器。
+- **[agy-swap](https://agy-swap.aklkbqx.com/)**（[源码仓库](https://github.com/aklkbqx/agy-swap)）— 跨平台 Go 语言 TUI 与 CLI 工具（支持 `macOS` / `Linux` / `Windows`），用于在 Antigravity CLI 与 Desktop/IDE 间切换多账号并查看各模型实时剩余配额，内置防止后台令牌刷新覆盖当前会话的会话保护与写入前自动本地备份机制。凭证仅保存在本地（`0600` 权限的 `vault.json` 或通过 `AGY_SWAP_VAULT=keychain` 存入系统钥匙串），无使用遥测，仅含可选的每日版本检查缓存。`TUI + CLI`
 
 ---
 
