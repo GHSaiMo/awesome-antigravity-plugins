@@ -72,6 +72,7 @@
 - **[AGY Usage](https://github.com/ahmetdotsh/agy-usage)** — 原生 Sidecar 插件，统计历史 Token 用量、API 等价成本估算与缓存节省金额。
 - **[AGY Lens](https://github.com/xukp20/agy-lens)** — 本地只读桌面端遥测 Sidecar，内置 Prompt 缓存观测台、长上下文成本分析与日历热力图。
 - **[Antigravity Status Monitor](https://github.com/rimenine/antigravity-status-monitor)** — 实时追踪 Agent 执行阶段、Lifecycle Hooks 与上游连通性的 Sidecar，快速区分正常思考与静默卡顿。
+- **[ag-vario](https://github.com/Staaaying/ag-vario)** — 面向 macOS Antigravity 2.0 桌面端的零依赖、纯只读观测 HUD：支持在 2/3/4 分屏各窗格输入栏独立展示会话 Token、5 类上下文构成与子代理状态，顶栏提供 `5h`/`7d` 额度圆环与 30 天用量热力图，自带原版备份与一键无损还原。`macOS` `Desktop HUD`
 
 ---
 
