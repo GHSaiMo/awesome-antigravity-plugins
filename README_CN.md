@@ -112,6 +112,7 @@
 - **[AGY Bridge](https://github.com/sshahzaiib/agy-bridge)** — 专为跨 Agent 协同设计的 MCP 桥接服务，支持模型回退路由、会话延续与长输出截断。
 - **[AGY MCP](https://github.com/Boulea7/agy-mcp)** — 将 `agy` 封装为含 10 个强类型工具、支持 Git Worktree 隔离执行的标准 MCP 后端，可供任意 MCP 客户端接入。
 - **[NotebookLM via Antigravity](https://github.com/MarcosNahuel/antigravity-plugin-cc)** — 借助 `agy` 实现本地版 NotebookLM：支持文件夹级文档摘要、相关性索引、带引用的综合问答、音视频转写与 HTML 研究报告导出。
+- **[agy-remote-wecom](https://github.com/lukeinx/agy-remote-wecom)** — 在手机企业微信里通过长连接（无需公网服务器）远程遥控本机 Antigravity (`agy`) 终端会话与后台 `agy acp` 会话：支持切换/恢复历史会话、收发文字图片与文件、切换模型与权限模式、工具调用卡片审批与产物回传（macOS，含 `agy` 生命周期 Hook 插件）。
 
 ---
 
