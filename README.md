@@ -111,6 +111,7 @@
 - **[AGY Bridge](https://github.com/sshahzaiib/agy-bridge)** — MCP bridge enabling Claude Code to offload heavy tasks to `agy` with model fallback routing, session continuity, and output truncation.
 - **[AGY MCP](https://github.com/Boulea7/agy-mcp)** — Exposes `agy` as a 10-tool MCP server with worktree-isolated execution and long-task supervision for Cursor, Codex, or any MCP client.
 - **[NotebookLM via Antigravity](https://github.com/MarcosNahuel/antigravity-plugin-cc)** — Turns local document folders into per-doc summaries, relevance indexes, cited syntheses, audio/video transcripts, and HTML research reports via `agy`.
+- **[agy-remote-wecom](https://github.com/lukeinx/agy-remote-wecom)** — Control local Antigravity (`agy`) terminal sessions and background `agy acp` sessions from WeCom on your phone over an outbound WebSocket long connection (no public server), with session resume, attachments, model/mode switching, tool-approval cards, and artifact retrieval (macOS, Chinese UI & commands).
 
 ---
 
