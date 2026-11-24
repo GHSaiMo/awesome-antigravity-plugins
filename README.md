@@ -84,6 +84,7 @@
 - **[AGY Fast IO](https://github.com/oil-oil/agy-fast-io)** — Lightweight local rule plugin that trims unnecessary agent round-trips and redundant confirmation pauses.
 - **[Antigravity Conversation Renamer MCP](https://github.com/falconchen/antigravity-conversation-renamer-mcp)** — Lightweight Node.js (`node:sqlite`) Stdio MCP server paired with a `/rename` Skill and optional topic-drift Rule: dynamically renames active or historical conversation titles cleanly on disk across `.pbtxt` annotations, SQLite FTS5 indexes, and Protobuf caches without Accessibility permissions or client restarts. `MCP + Skill + Rules`
 - **[AGYStack](https://github.com/jtaroreh/agystack)** — Closed-loop engineering workflow and multi-agent swarm orchestration plugin for Google Antigravity.
+- **[Mission Control for Antigravity](https://github.com/todd866/antigravity-mission-control)** — Live pictorial Mission Control cockpit (MCP App), turn-aware AI briefings, cross-Mac relay (`agy-status` / `agy-relay`), and adaptive Flash/Carbon/Neon AI Commander for coordinating Antigravity agents. `MCP App + CLI`
 - **[CodeRabbit Antigravity Plugin](https://github.com/coderabbitai/antigravity-plugin)** — Official CodeRabbit plugin bringing automated AI code reviews and guarded PR autofix workflows into Antigravity.
 - **[AGY GCP Companion](https://github.com/ericsk/agy-gcp-companion)** — Inspect Google Cloud projects, billing accounts, budget thresholds, and BigQuery month-to-date spend inside Antigravity.
 

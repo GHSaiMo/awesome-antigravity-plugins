@@ -84,6 +84,7 @@
 - **[AGY Fast IO](https://github.com/oil-oil/agy-fast-io)** — 让 Antigravity 少走冗余回合、减少非必要等待的轻量本地规则插件。
 - **[Antigravity Conversation Renamer MCP](https://github.com/falconchen/antigravity-conversation-renamer-mcp)** — 基于 Node.js 内置 `node:sqlite` 的轻量级本地 Stdio MCP 服务（配套 `/rename` 斜杠命令 Skill 与话题偏离自动更新 Rule）：免辅助功能权限、无需重启客户端，在 `.pbtxt` 注解、SQLite 主表与 FTS5 索引及 Protobuf 缓存间原子无损同步重命名当前或历史会话标题。`MCP + Skill + Rules`
 - **[AGYStack](https://github.com/jtaroreh/agystack)** — 面向 Google Antigravity 的闭环软件工程工作流与多智能体（Swarm）编排插件。
+- **[Mission Control for Antigravity](https://github.com/todd866/antigravity-mission-control)** — 图形化 Antigravity 多会话控制中心（MCP App）：支持单轮 AI 摘要简报、跨 Mac 会话协同（`agy-status` / `agy-relay`）与 Flash / Carbon / Neon 自适应 AI Commander。`MCP App + CLI`
 - **[CodeRabbit Antigravity Plugin](https://github.com/coderabbitai/antigravity-plugin)** — CodeRabbit 官方出品的原生插件，提供自动化 AI 代码审查与带安全护栏的 PR 自动修复工作流。
 - **[AGY GCP Companion](https://github.com/ericsk/agy-gcp-companion)** — 在 Antigravity 内直接查看 GCP 项目、账单账户、预算水位与 BigQuery 当月支出。
 
