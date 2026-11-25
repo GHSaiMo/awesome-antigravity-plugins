@@ -64,7 +64,7 @@
 - **[AGY Capsule](https://github.com/Lumidarin/agy-capsule)** — 直接在 Antigravity 输入框（Composer）内嵌展示上下文占用、模型配额、Token 细分与生成速率指标。
 - **[Antigravity Context Mode](https://github.com/Domush/antigravity-plugin-context-mode)** — 本地优先的上下文窗口保护插件，拦截超长终端输出、构建日志与大文件刷屏，可削减 90%+ 无效上下文膨胀。
 - **[AGY Context Dashboard](https://github.com/wycocoyu/agy-context-dashboard)** — 实时展示 Antigravity 上下文窗口、Token 消耗、缓存命中率与额度状态的仪表盘插件。
-- **[AGY Powerline](https://github.com/wassim-azi/agy-powerline)** — 零依赖 `agy` CLI 状态栏，支持 Gemini 与 Claude 额度节奏提示、上下文进度条、Git 状态组件、22 套主题及可视化配置器。
+- **[AGY Powerline](https://github.com/wassim-azi/agy-powerline)** — 零依赖 `agy` CLI 状态栏，支持 Gemini 与 Claude 额度节奏提示、上下文进度条、Git 状态组件、22 套主题及终端与[浏览器](https://agy-powerline.com/configure/)可视化配置器。
 - **[AGY HUD](https://github.com/franksde/agy-hud)** — 轻量级 Antigravity CLI 状态插件，集中展示上下文用量、配额比例、当前模型信息与 Agent 运行态。
 - **[Antigravity Desktop Context](https://github.com/dimitr-io/antigravity-desktop-context)** — 面向 Antigravity 2.0 桌面端的实时 `/context` 侧边栏透视面板。
 - **[Antigravity Dashboard](https://github.com/ShZbz/antigravity-dashboard)** — 支持 Desktop、IDE 与 CLI 的实时 Token 遥测与 Rust 加速本地用量账本。

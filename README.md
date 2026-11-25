@@ -64,7 +64,7 @@
 - **[AGY Capsule](https://github.com/Lumidarin/agy-capsule)** — Displays live context usage, model quotas, token breakdowns, and generation metrics directly inside the Antigravity composer.
 - **[Antigravity Context Mode](https://github.com/Domush/antigravity-plugin-context-mode)** — Local-first context protection plugin that cuts context bloat by 90%+ by preventing verbose terminal logs and multi-megabyte files from flooding conversation history.
 - **[AGY Context Dashboard](https://github.com/wycocoyu/agy-context-dashboard)** — Real-time context window, token usage, cache hit rate, and quota dashboard for Antigravity.
-- **[AGY Powerline](https://github.com/wassim-azi/agy-powerline)** — Zero-dependency `agy` CLI statusline with Gemini & Claude quota pacing, context progress bars, Git widgets, 22 themes, and interactive configurators.
+- **[AGY Powerline](https://github.com/wassim-azi/agy-powerline)** — Zero-dependency `agy` CLI statusline with Gemini & Claude quota pacing, context progress bars, Git widgets, 22 themes, and interactive TUI and [browser](https://agy-powerline.com/configure/) configurators.
 - **[AGY HUD](https://github.com/franksde/agy-hud)** — Lightweight Antigravity CLI status plugin surfacing context window consumption, quota status, active model, and agent state.
 - **[Antigravity Desktop Context](https://github.com/dimitr-io/antigravity-desktop-context)** — Live `/context` side panel inspector for the Antigravity 2.0 desktop app.
 - **[Antigravity Dashboard](https://github.com/ShZbz/antigravity-dashboard)** — Real-time token telemetry, quota tracker, and Rust-accelerated usage ledger across Antigravity Desktop, IDE, and CLI.
