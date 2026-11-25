@@ -197,6 +197,7 @@
 - **[AGY Switch](https://github.com/anglee0323/agy-switch)** — Manage Antigravity accounts, model quotas, and local usage across macOS, Windows, and Linux through desktop and CLI interfaces.
 - **[AGY Auth](https://github.com/fikrilal/agy-auth)** — Multi-account switcher for Google Antigravity CLI and Desktop (`agy`).
 - **[AGY CLI Manager](https://github.com/zcop/agy-cli-manager)** — Multi-account manager for Antigravity CLI featuring quota-aware failover, switching policies, and automation hooks.
+- **[agy-swap](https://agy-swap.aklkbqx.com/)** ([Repo](https://github.com/aklkbqx/agy-swap)) — Cross-platform Go TUI and CLI (`macOS` / `Linux` / `Windows`) for switching Google Antigravity CLI and IDE/Desktop accounts with live per-model quota inspection, session guards against background token overwrites, and automatic local backups before writes. Stores credentials locally (`0600` `vault.json` or OS keychain via `AGY_SWAP_VAULT=keychain`) with no usage telemetry and an optional cached daily version check. `TUI + CLI`
 
 ---
 
